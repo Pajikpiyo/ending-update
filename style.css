@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+ /* header{
+  width: 100%;
+  height: 10vh;
+  background-color: #333333;
+  margin-bottom: 5px;
+}
+
+ul {
+  width: 50%;
+  margin: 0 auto;
+
+}
+ul li{
+  display: inline-block;
+  color: #ffffff;
+  margin-left: 30px;
+  margin-top: 20px;
+} */
+
+.navbar {
+  width: 100%;
+  height: 10vh;
+  display: inline-block;
+  box-sizing: content-box;
+  background-color: #333; 
+}
+.navbar a {
+  text-decoration: none;
+  margin-left: 30px;
+  margin-top: 20px;
+  color: #ccc;
+  padding: 10px;
+  font-size: 16px;
+}
+.navbar a:hover {
+  color: #fff; 
+}
+.navbar img {
+  height: 24px;
+}
+.navbar .search,
+.navbar .cart {
+  display: inline-block;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+.navbar .search img,
+.navbar .cart img {
+  height: 20px;
+  
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px 50px;
+
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.container-top {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 50px;
+}
+
+.steve-text {
+  text-align: center;
+  font-size: 3rem;
+}
+.intro {
+  text-align: center;
+  color: #555555;
+}
+.intro a {
+  text-decoration: none;
+  color: lightskyblue;
+}
+
+.second-box {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.message {
+  margin-bottom: 20px;
+}
+.message h3 {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.message .content {
+  font-size: 0.9rem;
+  color: #555555;
+}
+.message .author{
+  font-size: 0.85rem;
+  color: #555555;
+}
+
+.bottom-con {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+
